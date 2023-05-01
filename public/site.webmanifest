@@ -1,0 +1,8 @@
+{
+  "name": "LOTR Showcase",
+  "short_name": "LOTR Showcase",
+  "icons": [],
+  "theme_color": "#009688",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
