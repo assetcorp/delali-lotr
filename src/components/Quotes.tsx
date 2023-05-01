@@ -80,6 +80,7 @@ const Quotes = () => {
         </Alert>
       </Snackbar>
       <Typography
+        id="quotes-title"
         variant="h3"
         component="h1"
         align="center"

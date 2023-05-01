@@ -1,12 +1,9 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import React from "react";
 import { Box, Link, Typography, useTheme } from "@mui/material";
 import NextLink from "next/link";
 import MainSearch from "./MainSearch";
 
 const DefaultHeader = () => {
-  const theme = useTheme();
-
   return (
     <>
       <Box

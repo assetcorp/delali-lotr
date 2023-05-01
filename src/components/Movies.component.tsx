@@ -45,6 +45,7 @@ const Movies = () => {
   return (
     <Box>
       <Typography
+        id="movies-title"
         variant="h3"
         component="h1"
         align="center"

@@ -26,11 +26,19 @@ const Nav = () => {
       <Breadcrumbs aria-label="breadcrumb">
         {pages.map((item) => {
           return pathname === item.link ? (
-            <Typography key={item.link} color="text.primary">
+            <Typography
+              id={`${item.name.toLowerCase()}-nav-link`}
+              key={item.link}
+              color="text.primary"
+            >
               {item.name}
             </Typography>
           ) : (
-            <NextLink key={item.link} href={item.link}>
+            <NextLink
+              id={`${item.name.toLowerCase()}-nav-link`}
+              key={item.link}
+              href={item.link}
+            >
               <Link component="span" underline="hover" color="inherit">
                 {item.name}
               </Link>

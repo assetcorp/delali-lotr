@@ -30,6 +30,7 @@ const MovieDetails = ({ movieId }: MovieDetailsProps) => {
         </Stack>
       ) : (
         <Typography
+          id="movies-details-title"
           variant="h3"
           component="h1"
           align="center"

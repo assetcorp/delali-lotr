@@ -65,6 +65,7 @@ const Characters = () => {
   return (
     <Box>
       <Typography
+        id="characters-title"
         variant="h3"
         component="h1"
         align="center"
