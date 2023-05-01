@@ -19,12 +19,17 @@ cd delali-lotr && yarn install
 After everything is installed, you can run `yarn dev` or `npm dev` to start the development server.
 You can then navigate to <http://localhost:3000> to view the web app in your bowser
 
-## Testing
+## Environment variables
 
-The SDK includes a suite of tests to ensure that the methods are working correctly. To run the tests, use the following command:
+In order for the web app to work, you will need your LOTR API key. You can get one via <https://the-one-api.dev/>.
+Then create a `.env` file with the following content:
 
 ```bash
-npm test
+LOTR_API_KEY=<YOUR_API_KEY>
 ```
 
-The tests use the Jest testing framework
+Replace `<YOUR_API_KEY>` with the API you obtaiend from the LOTR API.
+
+## Testing
+
+The SDK includes an e2e testing suit using playwrite. To run the tests just run `yarn test`. You can also run the test in UI mode by typing `yarn test --ui` in your command window
